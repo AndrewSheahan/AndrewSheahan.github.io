@@ -5,12 +5,54 @@ body {
     margin: 0;
     padding: 0;
 }
+.article-title{
+    text-indent: 20px;
+}
+li:first-child{
+    margin-left: left 5px;
+}
+
+a{
+    text-decoration: none; color: white;
+}
+a:visited{
+    text-decoration: none;
+}
 header {
     justify-content: center;
-    background:rgb(0, 0, 0);
-    color: white;
+    background:rgb(35, 40, 41);
+    color: rgb(255, 255, 255);
     margin:0px;
     padding: 20px;
+}
+.banner{
+    position: relative;
+    top: -50px;
+    margin: 0px;
+    text-decoration: underline;
+    height: 0px
+}
+header .li{
+    color: white;
+    text-decoration-color: none;  
+}
+header .navbar {
+
+    height: 80px;
+    width: auto;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -20px;
+}
+header .logo {
+    height: 50px;
+    width: 65px;
+    position: relative;
+    background-image: url(images/leaflogo.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding: 0px;
+    margin: 0px;
 }
 
 section {
@@ -19,14 +61,19 @@ section {
     display: flex;
     flex-direction: row;
 }
-
-div {
-    justify-self: center;
-    background: rgb(204, 114, 114);
+.feature-box {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.feature-box div {
     width: 80px;
     margin: auto;
-
-
+    background: rgb(66, 66, 66);
+    padding: 3px;
+    border-radius:2px;
+}
+.feature-box div:first-child{
+    margin-left: 0;
 }
 
 footer { 
@@ -44,4 +91,6 @@ li {
     display: inline-block;
     margin-right: 20px;
 
+}
+.button 
 }
