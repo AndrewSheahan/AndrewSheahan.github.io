@@ -4,9 +4,24 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    border-top: solid white 5px;
+
+}
+.topvoid{
+    background-color: rgb(105, 133, 141); 
+    margin-bottom: 4px;
+    margin-top: 0px;
+    padding: 10px;
 }
 .article-title{
-    text-indent: 20px;
+    text-indent: 18px;
+    color:rgb(105, 133, 141);
+    padding-top: 20px;
+}
+
+.b2{
+    color: black;
+    background-color: black;
 }
 li:first-child{
     margin-left: left 5px;
@@ -20,17 +35,20 @@ a:visited{
 }
 header {
     justify-content: center;
-    background:rgb(175, 205, 212);
+    background:rgb(126, 172, 185);
     color: rgb(255, 255, 255);
     margin:0px;
-    padding: 20px;
+    margin-bottom;
+    padding: 5px;
 }
 .banner{
     position: relative;
     top: -50px;
     margin: 0px;
     text-decoration: underline;
-    height: 0px
+    height: 0px;
+    color:rgb(255, 255, 255);
+    padding-bottom: 10px;
 }
 header .li{
     color: white;
@@ -62,20 +80,26 @@ section {
     flex-direction: row;
 }
 .feature-box {
-    color: rgb(75, 101, 102);
-    padding: 20px;
-}
-.feature-box div {
-    width: 80px;
-    margin: auto;
-    background:rgb(175, 205, 212);
-    padding: 3px;
-    border-radius:2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 2px;
 }
 .feature-box div:first-child{
-    margin-left: 0;
+        margin-left: 0;
+    }
+.feature-box div {
+    border: black 2px;
+    width: 150px;
+    margin: 2px;
+    background:rgb(105, 133, 141);
+    padding: 5px;
+    
+
 }
 
+.writing{ 
+    text-indent:0px;
+}
 footer { 
     background: black;
     color: white;
