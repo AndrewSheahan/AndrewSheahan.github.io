@@ -86,3 +86,6 @@ a:hover {
     color: rgb(83, 82, 82);
     padding-left: 20px;
 }
+.italic {
+    font-style: italic;
+}
