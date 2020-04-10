@@ -124,3 +124,7 @@ footer {
     height: 200px;
     width 500px;
 }
+#wrap {
+    width: 900px;
+    margin: 0 auto;
+}
