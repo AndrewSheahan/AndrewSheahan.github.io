@@ -120,9 +120,16 @@ html, body {
 .main-content-container>h2 {
     margin-top: 0px;
 }
-.main-area>.img-container {
+.main-area>.img-container1 {
     grid-area: i;
     background: url("images/etnacrop.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-area>.img-container2 {
+    grid-area: i;
+    background: url("images/bigtreeinlosangeles.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
