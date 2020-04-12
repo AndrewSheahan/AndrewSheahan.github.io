@@ -5,6 +5,7 @@ html, body {
     font-size: 1rem;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
+    line-height: 135%;
     color: #333;
 }
 
@@ -136,6 +137,14 @@ html, body {
     background-repeat: no-repeat;
     max-height: 600px;
     
+}
+.main-area>.img-container3 {
+    grid-area: i;
+    background: url("images/sapling.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height:350px;
 }
 .get-started-container {
     grid-area: g;
