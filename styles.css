@@ -7,6 +7,7 @@ html, body {
     font-weight: 300;
     color: #333;
 }
+
 .page-area {
     position: relative;
     display: grid;
@@ -115,7 +116,7 @@ html, body {
 }
 .main-content-container {
     grid-area: m;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 40px 20px 20px;
 }
 .main-content-container>h2 {
     margin-top: 0px;
@@ -133,6 +134,8 @@ html, body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    max-height: 600px;
+    
 }
 .get-started-container {
     grid-area: g;
@@ -192,4 +195,8 @@ html, body {
             'm m'
             'g g';
     }
+}
+@font-face{
+    font-family: NotoSansKR;
+    src: url(fonts/Noto_Sans_KR.zip/NotoSansKR-Regular.otf)
 }
