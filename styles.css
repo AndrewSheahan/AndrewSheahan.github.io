@@ -155,6 +155,22 @@ html, body {
 .get-started-container>a {
     text-decoration: none;
 }
+
+.next-button {
+    height: 35px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(202, 47, 47);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: transform 0.1s;
+    margin-left: 380px;
+    
+}
+/* get started also serves as previous page button after intro page*/
 .get-started-button {
     height: 35px;
     width: 160px;
