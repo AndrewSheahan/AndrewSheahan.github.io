@@ -104,6 +104,8 @@ html, body {
 }
 .sub-title {
     color: white;
+    position: relative;
+    bottom: -10px;
 }
 
 /* Main Area */
@@ -149,7 +151,7 @@ html, body {
 .get-started-container {
     grid-area: g;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .get-started-container>a {
@@ -158,7 +160,7 @@ html, body {
 
 .next-button {
     height: 35px;
-    width: 125px;
+    width: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,10 +171,26 @@ html, body {
     transition: transform 0.1s;
     border: rgb(80, 0, 0) solid 2px;    
 }
-/* get started also serves as previous page button after intro page*/
+.back-button {
+    height: 35px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(202, 47, 47);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: transform 0.1s;
+    border: rgb(80, 0, 0) solid 2px;
+}
+#start {
+    justify-self:center;
+}
+
 .get-started-button {
     height: 35px;
-    width: 125px;
+    width: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,6 +202,9 @@ html, body {
     border: rgb(80, 0, 0) solid 2px;   
 }
 .get-started-button:hover {
+    transform: scale(1.1);
+}
+.back-button:hover {
     transform: scale(1.1);
 }
 
